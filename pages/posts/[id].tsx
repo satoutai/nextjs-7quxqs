@@ -27,7 +27,7 @@ const Post: NextPage<PostProps> = (props) => {
         <p>
           このページは静的サイト生成によってビルド時に生成されたページです。
         </p>
-        <p>{`/prsts${id}に対応する`}</p>
+        <p>{`/posts${id}に対応する`}</p>
       </main>
     </div>
   );
