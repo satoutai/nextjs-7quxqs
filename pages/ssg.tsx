@@ -41,11 +41,4 @@ export const getStaticProps: GetStaticProps<SSGProps> = async (context) => {
   };
 };
 
-export async function getStaticPaths() {
-  return {
-    paths: [  { params: {...} }],
-    fallback: false, // tureもしくは"blocking"を指定可能
-  };
-}
-
 export default SSG;
