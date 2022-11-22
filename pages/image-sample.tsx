@@ -15,7 +15,7 @@ const ImageSample: NextPage<void> = (props) => {
       <p>Imageコンポーネントで表示した場合</p>
       {/* Imageコンポーネントで表示した場合 */}
       {/* パスを指定する代わりに、インポートした画像を指定 */}
-      <Image src={BibleImage} />
+      {/* <Image src={BibleImage} /> */}
       <p>Imageで表示した場合は事前に描画エリアが確保されます。</p>
     </div>
   );
