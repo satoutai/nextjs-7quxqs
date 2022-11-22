@@ -1,5 +1,7 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
+import styled from 'styled-components';
+
 // import to Image
 import BibleImage from '../public/images/bible.jpeg';
 
