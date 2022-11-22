@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
 // import to Image
-import BibleImage from '../public/images/bible.png';
+import BibleImage from './public/images/bible.png';
 
 const ImageSample: NextPage<void> = (props) => {
   return (
@@ -18,3 +18,4 @@ const ImageSample: NextPage<void> = (props) => {
     </div>
   );
 };
+export default ImageSample;
