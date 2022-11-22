@@ -9,7 +9,7 @@ const ImageSample: NextPage<void> = (props) => {
       <h1>画像表示の比較</h1>
       <p>imgタグで表示した場合</p>
       {/* 通常のimgタグを使用して画像を表示 */}
-      <img src="/images/bible.jpeg" />
+      <img src="../public/images/bible.png" />
       <p>Imageコンポーネントで表示した場合</p>
       {/* Imageコンポーネントで表示した場合 */}
       {/* パスを指定する代わりに、インポートした画像を指定 */}
